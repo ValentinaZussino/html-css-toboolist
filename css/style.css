@@ -2,8 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-color: blue;
+header {
+    background-color: rgb(250, 133, 133);
+    /* height: 80px; */
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+#logo {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+#logo-title {
+    display: inline-block;
+}
+
+main {
+    background-color:rgb(160, 159, 159);
 }
