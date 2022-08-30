@@ -3,15 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(245, 244, 244);
 }
 
 header {
-    background-color: rgb(250, 133, 133);
-    /* height: 80px; */
     padding: 8px;
     display: flex;
     align-items: center;
 }
+.background-header {
+    background-color: white;
+}
+
 #logo {
     margin-left: 15px;
     margin-right: 5px;
@@ -20,6 +23,10 @@ header {
     display: inline-block;
 }
 
-main {
-    background-color:rgb(160, 159, 159);
+#main-container {
+    background-color: rgb(37, 10, 10);
+    margin: 30px auto;
+    width: 70%;
+    height: 500px;
+    border-radius: 5px;
 }
