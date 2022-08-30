@@ -77,7 +77,11 @@ details p {
     margin-top: 10px;
 }
 
-/* newtask */
+.list-category {
+    margin-bottom: 20px;
+}
+
+/* entities */
 .check-entity {
     display: inline-block;
     width: 20px;
@@ -90,6 +94,19 @@ details p {
     margin-right: 5px;
 }
 
+.x-entity {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-right: 5px;
+} 
+
+/* labels */
 .labels {
     font-size: 10px;
     color: white;
@@ -99,4 +116,16 @@ details p {
 
 .editorial {
     background-color: rgb(68, 158, 248);
+}
+
+.goals {
+    background-color:darkorchid;
+}
+
+.recruiting {
+    background-color: rgb(3, 172, 135);
+}
+
+.mobile {
+    background-color: orange;
 }
