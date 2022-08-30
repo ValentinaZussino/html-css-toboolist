@@ -13,26 +13,40 @@
 
 <body>
     <!-- barra logo -->
-    <header class="background-header">
-        <img src="img/Logo.png" id="logo" class="background-header" alt="logo boolean">
+    <header class="background-white">
+        <img src="./img/Logo.png" id="logo" class="background-white" alt="logo boolean">
         <div id="logo-title">
-            <h1 class="background-header">Toboolist</h1>
+            <h1 class="background-white">Toboolist</h1>
         </div>  
     </header>
     
     <!-- contenitore centrale -->
-    <div id="main-container">
+    <div id="main-container" class="background-white">
+
         <!-- div bottoni-->
-        <div id="buttons-div">
+        <div id="buttons-div" class="background-white">
             <button type="button" id="button-1" class="buttons">Add Task</button><button type="button" 
             id="button-2" class="buttons">Add Section</button>
         </div>
-        <!-- div newtask -->
-        <div></div>
-        <!-- div today -->
-        <div></div>
-        <!-- div upcoming -->
-        <div></div>
+
+        <!-- to do list -->
+        <div id="todolist" class="background-white">
+            <!-- div newtask -->
+            <div class="background-white">
+                <details class="background-white">
+                    <summary class="background-white">New Task</summary>
+                    <p class="background-white"> <span class="check-entity background-white">&#10003;</span> 
+                        Quarterly Newsletter <span class="labels editorial"> Editorial</span>
+                    </p>
+                </details> 
+            </div>
+
+            <!-- div today -->
+            <div></div>
+            
+            <!-- div upcoming -->
+            <div></div>
+        </div>
     </div>
     
 </body>
